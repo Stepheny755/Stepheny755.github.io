@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "UofT Hyperloop Team",
+    "start_year": "2019",
+    "end_year": "Present",
+    "team": "Pod 2 R&D",
+    "title": "LIM Lead",
+    "description": "test"
+  },
+  {
+    "id": 2,
+    "name": "IEEE UofT",
+    "start_year": "2020",
+    "end_year": "Present",
+    "team": "Tech Team",
+    "title": "Associate",
+    "description": "test"
+  }
+]

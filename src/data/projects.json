@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SmartHome",
+    "headline": "Improving apartment QoL via small hardware hacks",
+    "description": "test"
+  },
+  {
+    "name": "Vision Checker",
+    "headline": "Stay at home eye-examinations",
+    "description": "test"
+  },
+  {
+    "name": "Euphoric Lyric",
+    "headline": "Lyric generation for lyricless audio",
+    "description": "test"
+  },
+  {
+    "name": "House Search",
+    "headline": "Stay at home eye-examinations",
+    "description": "test"
+  },
+  {
+    "name": "Time Tracker",
+    "headline": "Pomodoro technique inspired timer with Google Calendar integration",
+    "description": "test"
+  },
+  {
+    "name": "ClanStatsBot",
+    "headline": "Discord bot for World of Warships player statistics tracking",
+    "description": "test"
+  }
+]

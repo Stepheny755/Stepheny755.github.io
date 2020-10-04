@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "school": "University of Toronto",
+    "program": "B.ASc Computer Engineering",
+    "start_year": "2019",
+    "end_year": "2024",
+    "start_month": "September",
+    "end_month": "April",
+    "relevant_coursework": "Digital Systems, Computer Fundamentals, Circuit Analysis, Linear Algebra, Calculus"
+  },
+  {
+    "id": 2,
+    "school": "University of British Columbia",
+    "program": "Dual Enrollment/Access Studies",
+    "start_year": "2018",
+    "end_year": "2018",
+    "start_month": "September",
+    "end_month": "December",
+    "relevant_coursework": "Math 200 - Calculus 3"
+  }
+]
