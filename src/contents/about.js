@@ -6,9 +6,11 @@ class About extends React.Component{
   }
   render(){
     return(
-      <div>
-        <h1>About Me</h1>
-        <p>Hey There</p>
+      <div className="section">
+        <h1 className="title">About Me</h1>
+          <div className="b content">
+            <p>Hey There</p>
+          </div>
       </div>
     );
   }
