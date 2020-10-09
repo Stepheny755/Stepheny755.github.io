@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
-:root{
-  --sidebar-flex:1.5;
-  --condiv-flex:6;
-  --fontsize-p:1.2rem;
-  --fontsize-nav:1.6rem;
-  --typing-font:3rem;
+.root{
+  width:100%
 }
 
 #landing{
+  background:url(../res/bench.jpg);
+  display:table;
+  background-size:cover;
   position:relative;
   width: 100vw;
   height: 100vh;
@@ -30,8 +29,6 @@
   color: #262626;
   cursor: pointer;
   padding: 15px;
-  margin: 1.5rem 0 0 0;
-  width: 100%;
   text-align: left;
   border: none;
   outline: none;
@@ -54,14 +51,9 @@
   border: 1px solid #000000;
   border-radius: 6px;
   padding: 10px 18px;
-
-  margin:auto;
+  overflow: hidden;
 }
 
-.row{
-  margin-left: auto;
-  margin-right: auto;
-}
 
 body{
   font-family: 'Raleway';
@@ -74,15 +66,18 @@ body{
 }
 
 .section{
-
+  margin: 0 auto;
+  max-width: 1140px;
 }
 
 .content{
-  display: flex;
   margin-left: calc(100%/6);
   margin-right: calc(100%/6);
 }
 
+.expanded{
+  margin: 0 auto;
+}
 
 p{
   font-size: var(--fontsize-p);

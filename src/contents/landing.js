@@ -9,12 +9,12 @@ class Landing extends React.Component{
         <div id="landing-focus">
           <div id="landing-text">
             <h1>
-              Hey! I'm&nbsp;
+              Hey, Stephen here! I'm&nbsp;
             </h1>
             <h1>
               <Typewriter
                 options={{
-                  strings: ['stephen','an engineer','a student','a maker','a photographer','an avid hiker','a snowboarder','a tea drinker'],
+                  strings: ['an engineering student','a maker','a photographer','an avid hiker','a snowboarder','a tea drinker'],
                   autoStart: true,
                   loop: true,
                   deleteSpeed: 30,

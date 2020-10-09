@@ -11,7 +11,6 @@ class Projects extends React.Component{
     return (
       <div>
         <li key={x.id}>
-          <h4>{x.headline}</h4>
           <p>{x.description}</p>
         </li>
       </div>
@@ -21,16 +20,14 @@ class Projects extends React.Component{
     return(
       <div className="section">
         <h1 className="title">Projects</h1>
-        <div className="content">
-          <ul>
-            {projects.map(x =>
-              <Card
-                title = {<h4>{x.name} - {x.headline} </h4>}
-                content = {this.render_data(x)}
-              />
-            )}
-          </ul>
-        </div>
+        <ul className="content">
+          {projects.map(x =>
+            <Card
+              title = {<h4>{x.name} - {x.headline} </h4>}
+              content = {this.render_data(x)}
+            />
+          )}
+        </ul>
       </div>
     );
   }

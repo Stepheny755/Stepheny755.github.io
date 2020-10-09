@@ -21,12 +21,14 @@ class Main extends React.Component{
   render(){
 
     return(
-      <div id = "main">
+      <div>
         <Landing />
-        <About />
-        <Education/>
-        <Experience/>
-        <Projects />
+        <div id = "main">
+          <About />
+          <Education/>
+          <Experience/>
+          <Projects />
+        </div>
       </div>
     );
   }
