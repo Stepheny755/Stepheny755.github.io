@@ -28,27 +28,6 @@ class Main extends React.Component{
         <Experience/>
         <Projects />
       </div>
-      /*
-      <Router>
-        <div className="app">
-          <Route exact path="/">
-          </Route>
-          <Route exact path="/about">
-            <Footer />
-          </Route>
-          <Route exact path="/education">
-            <Education />
-          </Route>
-          <Route exact path="/experience">
-            <Footer />
-          </Route>
-          <Route exact path="/skills">
-            <Footer />
-          </Route>
-          <Footer />
-        </div>
-      </Router>
-      */
     );
   }
 }
