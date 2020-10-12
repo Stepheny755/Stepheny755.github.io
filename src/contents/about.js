@@ -9,9 +9,11 @@ class About extends React.Component{
       <div className="section">
         <h1 className="title">About Me</h1>
           <div className="content">
-          <div className="b">
-            <p>Hey There</p>
-          </div>
+            <ul>
+              <div className="b">
+                <p>Hey There</p>
+              </div>
+            </ul>
           </div>
       </div>
     );

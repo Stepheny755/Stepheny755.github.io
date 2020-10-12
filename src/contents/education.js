@@ -18,10 +18,12 @@ class Education extends React.Component{
         <h1 className="title">Education</h1>
         <ul className="content">
             {education.map(x =>
-              <Card
-                title = {<div><h3 className="edu_school">{x.school}</h3><h3 className="edu_program">{x.program}</h3></div>}
-                content = {this.render_data(x)}
-              />
+              <li>
+                <Card
+                  title = {<div><h3 className="edu_school">{x.school}</h3><h3 className="edu_program">{x.program}</h3></div>}
+                  content = {this.render_data(x)}
+                />
+              </li>
             )}
         </ul>
       </div>

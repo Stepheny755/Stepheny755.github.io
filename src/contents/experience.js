@@ -23,10 +23,12 @@ class Experience extends React.Component{
         <h1 className="title">Experience</h1>
         <ul className="content">
           {experiences.map(x =>
-            <Card
-              title = {<h4>{x.team} {x.title} - {x.name}</h4>}
-              content = {this.render_data(x)}
-            />
+            <li>
+              <Card
+                title = {<h4>{x.team} {x.title} - {x.name}</h4>}
+                content = {this.render_data(x)}
+              />
+            </li>
           )}
         </ul>
       </div>
