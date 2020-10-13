@@ -62,7 +62,7 @@ class Card extends React.Component{
               animate="open"
               exit="collapsed"
               variants={card_variants}
-              transition={{ duration: 0.5}}//, //ease: [0.04, 0.62, 0.23, 0.98] }}
+              transition={{ duration: 0.35}}//, //ease: [0.04, 0.62, 0.23, 0.98] }}
             >
               {this.props.content}
             </motion.section>
