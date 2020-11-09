@@ -4,9 +4,6 @@ import experiences from '../data/experience.json'
 import Card from './card'
 
 class Experience extends React.Component{
-  constructor(props){
-    super(props);
-  }
   render_data(x){
     return(
       <div>

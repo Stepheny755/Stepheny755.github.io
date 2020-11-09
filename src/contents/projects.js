@@ -5,9 +5,6 @@ import projects from '../data/projects.json'
 import Card from './card'
 
 class Projects extends React.Component{
-  constructor(props){
-    super(props);
-  }
   render_data(x){
     return (
       <div>
