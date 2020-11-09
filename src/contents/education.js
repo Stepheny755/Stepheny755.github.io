@@ -8,7 +8,7 @@ class Education extends React.Component{
     return(
     <div>
       <h4 className="edu_range">{x.start_month} {x.start_year} - {x.end_month} {x.end_year}</h4>
-      <p>{x.relevant_coursework}</p>
+      <p><i>Relevant Coursework:</i> {x.relevant_coursework}</p>
     </div>
     );
   }
