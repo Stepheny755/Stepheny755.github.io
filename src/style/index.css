@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
-.root{
-  width:100%;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --mainback:#222;
+  --mainfore:#000000;
+}
+
+.rootelement{
   font-size:10px;
 }
 
@@ -19,6 +28,7 @@
 
 #landing-text{
   display: inline-flex;
+  font-size: 2rem;
   flex: 0 0 66%;
 }
 
@@ -131,4 +141,23 @@ html{
 #main
 {
 
+}
+
+.navbar {
+  background-color: var(--mainback);
+}
+
+a, .navbar-nav, .navbar-light .nav-link {
+  color: #9FFFCB;
+  &:hover { color: white; }
+}
+.navbar-brand {
+  font-size: 1.4em;
+  color: #9FFFCB;
+  &:hover { color: white; }
+}
+.form-center {
+  position: absolute !important;
+  left: 25%;
+  right: 25%;
 }
