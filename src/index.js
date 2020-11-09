@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import './assets/index.css'
 
-import NavBar from './layouts/nav'
+import './style/index.css'
+
+//import NavBar from './layouts/nav'
+import { NaviBar } from './layouts/navbar'
 import Footer from './layouts/footer'
 
 import About from './contents/about'
@@ -21,7 +23,8 @@ class Main extends React.Component{
   render(){
 
     return(
-      <div>
+      <React.Fragment>
+        <NaviBar />
         <Landing />
         <div id = "main">
           <About />
@@ -29,10 +32,10 @@ class Main extends React.Component{
           <Experience/>
           <Projects />
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }
 
 
-ReactDOM.render(<Main />,document.getElementById('root'));
+ReactDOM.render(<Main />,document.getElementById('rootelement'));
