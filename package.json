@@ -1,6 +1,6 @@
 {
   "name": "personalreactsite",
-  "homepage": "https://stepheny755.github.io/",
+  "homepage": "https://stepheny755.github.io/PersonalSite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,11 +46,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Stepheny755/Stepheny755.github.io.git"
+    "url": "git+https://github.com/Stepheny755/PersonalSite.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Stepheny755/Stepheny755.github.io/issues"
+    "url": "https://github.com/Stepheny755/PersonalSite/issues"
   }
 }
