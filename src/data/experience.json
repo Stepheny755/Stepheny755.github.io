@@ -6,7 +6,7 @@
     "end_year": "Present",
     "team": "Pod 2 R&D",
     "title": "LIM Lead",
-    "description": "test"
+    "description": "Part of the Pod II R&D team working on developing efficient and effective contactless levitation and propulsion technologies for implementation in future hyperloop pods. Researched new technologies in the fields of electrodynamic and electromagnetic drives, such as Double Sided Linear Induction Motors (DLIM's), Transverse Flux LIMs (TFLIM's) and Halbach Arrays (HA's). Designed FEA simulations using ANSYS Maxwell, Simcenter MagNet, and Finite Element Method Magnetics (FEMM), written in MATLAB and VBS. Currently co-leading a team of 11 engineers working on continuing research, development, and prototyping of novel linear induction motors."
   },
   {
     "id": 2,
@@ -15,6 +15,6 @@
     "end_year": "Present",
     "team": "Tech Team",
     "title": "Associate",
-    "description": "test"
+    "description": "Technical Team associate at the University of Toronto IEEE Club. Developed and presented hardware workshops introducing concepts including Arduino programming and Motor/Actuator control to engineering students accross multiple disciplines and years. Developed workshops covering web development topics, such as React, JS, and HTTP/REST requests. Worked on a photogrammetry project with the Tech Team to turn a camera into a 3D head scanner using COLMAP SFM and OpenCV-Python."
   }
 ]
