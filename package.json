@@ -42,7 +42,7 @@
     ]
   },
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
