@@ -10,7 +10,6 @@ export const NaviBar = () => (
         <Nav className="ml-auto">
           <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/notes">Notes</Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link href="/edu">Education</Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
