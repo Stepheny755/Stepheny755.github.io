@@ -22,7 +22,6 @@ class Main extends React.Component{
   }
   */
   render(){
-
     return(
       <React.Fragment>
         <Landing />
@@ -37,5 +36,13 @@ class Main extends React.Component{
   }
 }
 
+export const App = () => (
+  <Router>
+    <Main />
+    <Route path = "/">
+      <Route path = "about" component = {About} />
+    </Route >
+  </Router>
+)
 
-ReactDOM.render(<Main />,document.getElementById('rootelement'));
+ReactDOM.render(<Main/>,document.getElementById('rootelement'));
