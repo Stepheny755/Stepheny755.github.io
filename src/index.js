@@ -16,26 +16,33 @@ import Projects from './contents/projects'
 import Landing from './contents/landing'
 
 class Main extends React.Component{
-  constructor(props){
-    super(props);
-  }
-
   render(){
-
     return(
       <React.Fragment>
+        <Router>
         <NaviBar />
-        <Landing />
-        <div id = "main">
-          <About />
-          <Education/>
-          <Experience/>
-          <Projects />
-        </div>
+        <Route>
+          <Landing />
+          <div id = "main">
+            <About />
+            <Education/>
+            <Experience/>
+            <Projects />
+          </div>
+        </Route>
+        </Router>
       </React.Fragment>
     );
   }
 }
 
+export const App = () => (
+  <Router>
+    <Main />
+    <Route path = "/">
+      <Route path = "about" component = {About} />
+    </Route >
+  </Router>
+)
 
-ReactDOM.render(<Main />,document.getElementById('rootelement'));
+ReactDOM.render(<Main/>,document.getElementById('rootelement'));
