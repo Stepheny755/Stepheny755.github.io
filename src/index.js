@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
+import { BrowserRouter as Router,Switch,Route,Link } from "react-router-dom";
 
 import './style/index.css'
 
@@ -14,14 +13,11 @@ import Education from './contents/education'
 import Experience from './contents/experience'
 import Projects from './contents/projects'
 import Landing from './contents/landing'
+import Blog from './contents/blog'
+
 
 class Main extends React.Component{
-  /*
-  constructor(props){
-    super(props);
-  }
-  */
-  render(){
+  mainPage(){
     return(
       <React.Fragment>
         <Landing />
@@ -30,19 +26,31 @@ class Main extends React.Component{
           <Education/>
           <Experience/>
           <Projects />
+          <Blog />
         </div>
       </React.Fragment>
     );
   }
-}
 
-export const App = () => (
-  <Router>
-    <Main />
-    <Route path = "/">
-      <Route path = "about" component = {About} />
-    </Route >
-  </Router>
-)
+  /*
+  constructor(props){
+    super(props);
+  }
+  */
+  render(){
+    return(
+    <Router>
+      <Switch>
+        <Route path = "/blog">
+          <Blog />
+        </Route>
+        <Route path="/">
+          {this.mainPage()}
+        </Route>
+      </Switch>
+    </Router>
+  );
+  }
+}
 
 ReactDOM.render(<Main/>,document.getElementById('rootelement'));
