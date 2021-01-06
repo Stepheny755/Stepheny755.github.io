@@ -14,7 +14,7 @@ import Experience from './contents/experience'
 import Projects from './contents/projects'
 import Landing from './contents/landing'
 import Blog from './contents/blog'
-
+import Notes from './contents/notes'
 
 class Main extends React.Component{
   mainPage(){
@@ -43,6 +43,9 @@ class Main extends React.Component{
       <Switch>
         <Route path = "/blog">
           <Blog />
+        </Route>
+        <Route path = "/notes">
+          <Notes />
         </Route>
         <Route path="/">
           {this.mainPage()}
