@@ -2,8 +2,8 @@ import React from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 class Card extends React.Component{
-  constructor(props){
-    super(props);
+  constructor(){
+    super();
     this.state={
       expanded: false,
     }
