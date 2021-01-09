@@ -72,9 +72,13 @@ class Main extends React.Component{
           <Notes />
           </div>
         </Route>
-        <Route path="/">
+        <Route path="/about">
           <div className = {`App ${this.getTheme()}`}>
           {this.mainPage()}
+          </div>
+        </Route>
+        <Route path="/">
+          <div className = {`App ${this.getTheme()}`}>
           </div>
         </Route>
       </Switch>
