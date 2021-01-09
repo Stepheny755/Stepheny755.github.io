@@ -3,7 +3,7 @@ import listReactFiles from 'list-react-files'
 
 import MDBase from './markdown'
 
-import Lec_7notes from '../data/notes/Lec_7.md'
+import Lec_7notes from './public/data/notes/Lec_7.md'
 
 
 class Notes extends React.Component{
