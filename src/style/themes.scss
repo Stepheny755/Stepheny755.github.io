@@ -1,13 +1,15 @@
 .dark{
-  --theme-background-colour:#000;
+  --theme-background-colour:#101010;
   --theme-accent-colour:#69B7F2;
-  --theme-text-colour:#fff;
+  --theme-text-colour:#FDFDFD;
+  --theme-btn: url('../res/icons8-fog-80.png');
 }
 
 .light{
   --theme-background-colour:#fff;
   --theme-accent-colour:#69B7F2;
   --theme-text-colour:#000;
+  --theme-btn: url('../res/icons8-haze-80.png');
 }
 
 .accessibility{

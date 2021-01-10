@@ -152,18 +152,42 @@ html{
 }
 
 .navbar {
-  background-color: var(--theme-background-colour);
+  background-color: var(--theme-accent-colour);
+  position: relative;
 }
 
 a, .navbar-nav, .navbar-default, .nav-link, .navbar-brand{
-  font-size: 4em;
-  color: var(--theme-accent-colour);
+  font-size: 3.5em;
+  color: var(--theme-text-colour);
   background: var(--theme-text-colour)
   &:hover { color: var(--theme-accent-colour); }
 }
+
+.themebtn{
+  background-color: var(--theme-accent-colour);
+  background-image: var(--theme-btn);
+  background-size: cover;
+  border: none;
+  outline: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.themebtn:focus{
+  border:none;
+  outline:none;
+}
+
+ //background: #92c7eb; background-image: url(); background-size: cover; background-position: center; display: inline-block; border: none; padding: 20px; width: 70px; border-radius: 900px; height: 70px; transition: all 0.5s; cursor: pointer;}.btn:hover{ width: 75px; height: 75px;}
 
 .form-center {
   position: absolute !important;
   left: 25%;
   right: 25%;
+}
+
+.img_credit{
+  font-size:1.5em;
 }
