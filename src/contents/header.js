@@ -7,12 +7,12 @@ class Header extends React.Component{
   }
   render(){
     return(
-      <Navbar className={`${this.props.theme}`} sticky="top">
+      <Navbar className={this.props.theme} sticky="top">
           <Navbar.Brand href="/">SY</Navbar.Brand>
           <Nav.Link href="blog">blog</Nav.Link>
           <Nav.Link href="notes">notes</Nav.Link>
           <Nav.Link href="about">about</Nav.Link>
-          <button className="b" onClick={this.props.onClick}>Press Here</button>
+          <button className="themebtn" onClick={this.props.onClick}></button>
       </Navbar>
     );
   }
